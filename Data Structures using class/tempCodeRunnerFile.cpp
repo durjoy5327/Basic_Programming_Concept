@@ -1,0 +1,2 @@
+
+    list.deleted(25);
