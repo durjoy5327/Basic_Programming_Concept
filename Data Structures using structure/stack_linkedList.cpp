@@ -6,7 +6,6 @@ struct node{
 };
 node *root=NULL, *tail=NULL;
 void insert(int data){
-    node* current_node= root;
     if(root==NULL){
         root= new node();
         root->data= data;
@@ -55,6 +54,7 @@ void print(){
 }
 
 int main(){
+    cout<<"Enqueue:\n";
     insert(25);
     insert(26);
     insert(27);
