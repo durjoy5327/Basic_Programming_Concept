@@ -1,9 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int binarySearch(vector<int>& vec, int left, int right, int target) {
     if (left > right) return -1;
-    
     int middle = (right + left) / 2;
     if (vec[middle] == target) return middle;
     else if (vec[middle] < target) return binarySearch(vec, middle + 1, right, target);

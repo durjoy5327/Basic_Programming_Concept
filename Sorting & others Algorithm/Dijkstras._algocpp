@@ -1,0 +1,68 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef pair<int, int> pii; // Pair of vertex and distance
+
+void dijkstra(vector<vector<pii>>& graph, int source) {
+    int n = graph.size();
+    vector<int> dist(n, INT_MAX); // Initialize distances to infinity
+    dist[source] = 0; // Distance to source vertex is 0
+    priority_queue<pii, vector<pii>, greater<pii>> pq; // Min-heap
+    pq.push({0, source}); // Push source vertex with distance 0
+    unordered_map<int, int> memo; // Memoization for distances
+
+    while (!pq.empty()) {
+        int u = pq.top().second; // Extract vertex with minimum distance
+        pq.pop();
+
+        // Check if already computed distance for this vertex
+        if (memo.find(u) != memo.end()) continue;
+
+        memo[u] = dist[u]; // Store computed distance
+
+        // Explore neighbors of u
+        for (auto& neighbor : graph[u]) {
+            int v = neighbor.first; // Neighbor vertex
+            int weight = neighbor.second; // Weight of edge from u to v
+
+            // Update distance if shorter path found
+            if (dist[u] != INT_MAX && dist[v] > dist[u] + weight) {
+                dist[v] = dist[u] + weight;
+                pq.push({dist[v], v}); // Push updated distance and vertex
+            }
+        }
+    }
+
+    // Print shortest distances
+    cout << "Shortest distances from source " << source << ":\n";
+    for (int i = 0; i < n; ++i) {
+        if (memo.find(i) != memo.end())
+            cout << "Vertex " << i << ": " << memo[i] << endl;
+        else
+            cout << "Vertex " << i << ": INFINITY" << endl;
+    }
+}
+
+int main() {
+    int n, m; // n = number of vertices, m = number of edges
+    cout << "Enter number of vertices and edges: ";
+    cin >> n >> m;
+
+    vector<vector<pii>> graph(n); // Graph representation
+
+    cout << "Enter edges (source destination weight):\n";
+    for (int i = 0; i < m; ++i) {
+        int u, v, w;
+        cin >> u >> v >> w;
+        graph[u].push_back({v, w}); // Add edge u->v with weight w
+        graph[v].push_back({u, w}); // For undirected graph
+    }
+
+    int source;
+    cout << "Enter source vertex: ";
+    cin >> source;
+
+    dijkstra(graph, source); // Run Dijkstra's algorithm
+
+    return 0;
+}
