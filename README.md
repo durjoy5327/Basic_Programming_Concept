@@ -16,11 +16,9 @@
 <h2>🛠️ Tool & Technology Stack</h2>
 <ul>
     <li>React.js</li>
-    <li>Node.js</li>
     <li>Three.js</li>
-    <li>CSS & HTML</li>
+    <li>Tailwind CSS</li>
     <li>NASA API</li>
-    <li>ChatGPT</li>
 </ul>
 
 <h2>🎯 Objectives</h2>
