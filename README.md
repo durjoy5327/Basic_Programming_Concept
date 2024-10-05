@@ -1,17 +1,23 @@
-<p align="center">
-  <a href="https://i.imgur.com/w1hihiCVJ.mp4">
-    <img src="https://imgur.com/w1hiCVJ.jpg" alt="Exovision Project Video" style="max-width:100%; height:auto;">
-  </a>
-</p>
-<h1>🌌 Project Name: Exovision 🌌</h1>
 
-<h2>✨ Introduction</h2>
+<h1 >🌌 ExoVision 🌌</h1>
+
+<h2>✨ High-Level Summary:</h2>
 <p>
-    Exovision is a web application developed for the NASA Space Apps Challenge. Designed to offer users a unique perspective, it allows for the visualization of the night sky from various exoplanets. Exoplanets, planets beyond our solar system, are the focus of this application. With Exovision, you can explore how the night sky would appear from different celestial bodies, offering a captivating view of the universe. 🌠
+ExoVision, developed by Team AstroNovo, is an innovative application designed for students and astronomy enthusiasts. It provides an engaging platform to visualize the night sky from various exoplanets, helping users understand celestial phenomena and star configurations from new perspectives. By allowing users to create and name constellations based on detailed star charts and export high-quality images, ExoVision encourages exploration and curiosity about the universe. The project integrates real astronomical data with interactive features, making astronomy education more accessible and inspiring a deeper appreciation for space and the potential for life beyond Earth. Ultimately, ExoVision seeks to inspire the next generation of explorers and scientists passionate about our cosmos. 🌠
 </p>
+<h2>🌌 Project Demo 🌌</h2>
 <p>
-    <strong>Challenge Link:</strong> <a href="https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/exosky/?tab=details">NASA Space Apps Challenge 2024 - Exosky</a> 🚀
+    <a href="https://youtu.be/IYOpCItAflA">30 Seconds of Glory</a> 🎥
 </p>
+<h2>✨ Final Project </h2>
+<p>
+    <a href="https://www.figma.com/proto/1bwhA4bdHBUMTonrTYivrS/Exovision?t=RmzrXGOPKZ2yZ9YU-1">Figma demo</a> 🎥
+</p>
+<h2>Project Details</h2>📝 
+
+
+
+
 
 <h2>🛠️ Tool & Technology Stack</h2>
 <ul>
