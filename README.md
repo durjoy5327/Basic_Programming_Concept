@@ -7,12 +7,15 @@ ExoVision, developed by Team AstroNovo, is an innovative application designed fo
 </p>
 <h2>🌌 Project Demo 🌌</h2>
 <p>
-    <a href="https://youtu.be/IYOpCItAflA">30 Seconds of Glory</a> 🎥
+    👉<a href="https://youtu.be/IYOpCItAflA">30 Seconds of Glory</a> 🎥
 </p>
-<h2>✨ Final Project </h2>
+<h2> Final Project ✨ </h2>
 <p>
-    <a href="https://www.figma.com/proto/1bwhA4bdHBUMTonrTYivrS/Exovision?t=RmzrXGOPKZ2yZ9YU-1">Figma demo</a> 
+    👉<a href="https://www.figma.com/proto/1bwhA4bdHBUMTonrTYivrS/Exovision?t=RmzrXGOPKZ2yZ9YU-1">ExoVision App</a> <br> <br>
+    👉<a href="https://exovision.us/">ExoVision Web</a> 
 </p>
+
+
 <h2>Project Details 📝 </h2>
 
 
