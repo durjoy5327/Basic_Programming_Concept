@@ -80,3 +80,11 @@ The following sections detail the technical components and features of each page
     <li> Web Development: React.js, Three.js, Tailwind CSS 💻🛠️</li>
     <li>Nasa Explonets Data 🪐🔭</li>
 </ul>
+
+<h3>Space Agency Data</h3>
+<ul>
+    <li> <a href="https://exoplanetarchive.ipac.caltech.edu/">NASA Exoplanet Archive</a> </li>
+    <li> <a href="https://svs.gsfc.nasa.gov/4851">Deep Star Maps 2020</a> </li>
+    <li> <a href="https://eyes.nasa.gov/apps/exo/#/">Eyes on Exoplanets</a> </li>
+    <li> <a href="https://exoplanets.nasa.gov/exep/">NASA Exoplanet Exploration Program</a> </li>
+</ul>
